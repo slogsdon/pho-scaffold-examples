@@ -1,0 +1,30 @@
+{
+    "name": "slogsdon/scaffold-example-full",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Shane Logsdon",
+            "email": "shane@shanelogsdon.com"
+        }
+    ],
+    "scripts": {
+        "start": "@php -S 127.0.0.1:9000 -t public"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scaffold\\Examples\\Full\\": "src/"
+        }
+    },
+    "require": {
+        "slogsdon/scaffold": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../scaffold"
+        }
+    ],
+    "config": {
+        "process-timeout": 0
+    }
+}
