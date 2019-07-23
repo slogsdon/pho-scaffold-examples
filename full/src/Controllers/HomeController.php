@@ -5,7 +5,7 @@ namespace Scaffold\Examples\Full\Controllers;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
-use Scaffold\AbstractController;
+use Scaffold\Controller\AbstractController;
 
 class HomeController extends AbstractController
 {
